@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require("express");
 
 const PORT = process.env.PORT || 3000; //  chose port from here like 8080, 3001
